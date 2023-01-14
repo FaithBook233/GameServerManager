@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{2B2A4645-4CDF-8A72-ABCF-3C9E61B5687F}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "GameServerManager",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}

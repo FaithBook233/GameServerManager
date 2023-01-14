@@ -1,0 +1,23 @@
+﻿# UE4项目初始
+Binaries
+Build
+DerivedDataCache
+Intermediate
+Saved
+.vscode
+.vs
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+Script
+
+# 初学者包
+StarterContent
+
+# VS Code代码行计数文件
+.VSCodeCounter
