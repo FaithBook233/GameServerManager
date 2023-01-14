@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+﻿// Copyright © 2023 Chen Feng All rights reserved.
 
 #include "GameServerManager.h"
 #include "Modules/ModuleManager.h"
