@@ -31,5 +31,5 @@ public:
 
 private:
 	FString mServerPath;
-	TMap<FGuid, FProcHandle> mServers;
+	TArray<FProcHandle> mServers;
 };

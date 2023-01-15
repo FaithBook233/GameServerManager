@@ -6,7 +6,6 @@
 UGameServerManagerInstance::UGameServerManagerInstance()
 {
 	InitServerPath();
-	//OpenAServer();//测试打开程序
 }
 
 void UGameServerManagerInstance::InitServerPath()
@@ -35,7 +34,7 @@ FProcHandle UGameServerManagerInstance::OpenAServer()
 	ensureError(IsServerRunning(newHandler), TEXT("服务器启动失败，服务器URL : %s"), *mServerPath);
 	if (IsServerRunning(newHandler))
 	{
-		mServers.Add(newGuid, newHandler);
+		mServers.Add(newHandler);
 	}
 
 	return newHandler;
