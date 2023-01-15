@@ -6,6 +6,8 @@
 #include "GameFramework/GameModeBase.h"
 #include "GameServerManagerGameModeBase.generated.h"
 
+
+
 /**
  * 
  */
@@ -13,5 +15,4 @@ UCLASS()
 class GAMESERVERMANAGER_API AGameServerManagerGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
 };
