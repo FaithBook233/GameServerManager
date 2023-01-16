@@ -44,3 +44,11 @@ void UGameServerManagerInstance::CloseServer(FProcHandle& procHandle)
 {
 	FPlatformProcess::CloseProc(procHandle);
 }
+
+void UGameServerManagerInstance::CloseAllServer()
+{
+	for (auto& procHandle : mServers)
+	{
+		CloseServer(procHandle);
+	}
+}

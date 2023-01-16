@@ -26,7 +26,8 @@ public:
 	void InitServerPath();
 
 	FProcHandle OpenAServer();
-	void CloseServer(FProcHandle& procHandle);
+	void CloseServer(FProcHandle& procHandle); // TODO 未验证
+	void CloseAllServer();
 	bool IsServerRunning(FProcHandle& procHandle) const;
 
 private:
