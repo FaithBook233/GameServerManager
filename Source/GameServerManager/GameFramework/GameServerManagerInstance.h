@@ -10,7 +10,7 @@ struct FServerInfo
 {
 	FString ServerName;
 	FGuid HomeOwner;
-	uint32 Port;
+	int32 Port;
 };
 
 /**
